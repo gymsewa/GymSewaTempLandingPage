@@ -21,8 +21,8 @@ import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
 
 export const header = {
   logo: Logo,
-  btnLoginText: 'Log in',
-  btnSignupText: 'Sign Up',
+  btnLoginText: '',
+  btnSignupText: '',
 };
 
 export const nav = [
@@ -35,8 +35,8 @@ export const nav = [
 ];
 
 export const banner = {
-  titlePart1: 'Get the best part of your day',
-  titlePart2: '– you fit here.',
+  titlePart1: 'Manage Your Gym Now Online',
+  titlePart2: '',
   subtitle:
     'We provide serious fitness but within a fun and friendly, safe space.',
   textBtn: 'Join Now',
@@ -47,9 +47,9 @@ export const about = {
   icon: UsersIcn,
   title: 'Our misson',
   subtitle1:
-    'We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.',
+    'Whether you have a gym or are planning to start one, your business can easily be overshadowed or beaten by established players and smart competitors already in the market. You need a perfect strategy to outsmart them and run your business effectively and professionally. To achieve this, leveraging the latest tools for growth is essential, including data analysis, digital marketing, SEO, SMO, Email, SMS, and WhatsApp marketing.',
   subtitle2:
-    'The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.',
+    'Successful business management is the key to growth, and this is where Gymsewa - Gym Management Software comes in as a must-have tool for gym growth. Gymsewa has several advantages, such as helping with automated communication and event notification tools, ensuring that your gyms operations run smoothly and your members stay engaged.',
   link: 'Join Now',
 };
 
@@ -94,34 +94,40 @@ export const pricing = {
   plans: [
     {
       name: 'Basic',
-      price: '20',
+      price: '500',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '1 training programs' },
-        { name: 'free fitness consultation' },
+        { name: 'Add Multiple Users' },
+        { name: 'Add Unlimited Users' },
+        { name: 'Permission Wise Access' },
+        { name: '20 SMS Free' },
+        { name: 'Free Support' },
+        { name: 'Validity 1 Month' }
       ],
       delay: 600,
     },
     {
       name: 'Premium',
-      price: '35',
+      price: '3500',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '5 training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
+        { name: 'Add Multiple Users' },
+        { name: 'Add Unlimited Users' },
+        { name: 'Permission Wise Access' },
+        { name: '50 SMS Free' },
+        { name: 'Free Support' },
+        { name: 'Validity 3 Months' }
       ],
       delay: 800,
     },
     {
       name: 'Elite',
-      price: '49',
+      price: '5000',
       list: [
-        { name: 'unlimited gym access' },
-        { name: 'all training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
-        { name: '50% off drinks' },
+        { name: 'Add Multiple Users' },
+        { name: 'Add Unlimited Users' },
+        { name: 'Permission Wise Access' },
+        { name: '100 SMS Free' },
+        { name: 'Free Support' },
+        { name: 'Validity 1 Year' }
       ],
       delay: 1000,
     },
@@ -142,19 +148,19 @@ export const community = {
       image: CommunityImg2,
       name: 'Lauren K.',
       message:
-        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
+        '“GymSewa changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
     },
     {
       image: CommunityImg3,
       name: 'Jhon D.',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Love these workouts! Trainers are knowledgeable and motivating. “GymSewa is wonderful!”',
     },
     {
       image: CommunityImg4,
       name: 'Anne R.',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Love these workouts! Trainers are knowledgeable and motivating. “GymSewa is wonderful!”',
     },
   ],
 };
@@ -200,11 +206,11 @@ export const join = {
   image: JoinImg,
   title: 'Wanna join & have fun?',
   subtitle:
-    'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
+    'We’ll keep you updated on the things you need to know about GymSewa. Nothing more, nothing less.',
   btnText: 'Join now',
 };
 
 export const footer = {
   logo: Logo,
-  copyrightText: 'All rights reserved. Gymme 2022.',
+  copyrightText: 'All rights reserved. GymSewa 2022.',
 };

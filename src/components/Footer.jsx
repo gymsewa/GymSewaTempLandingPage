@@ -16,10 +16,10 @@ const Footer = () => {
       >
         {/* logo */}
         <a href='/#'>
-          <img className='' src={logo} alt='' />
+          {/* <img className='' src={logo} alt='' /> */}
         </a>
         {/* copyright text */}
-        <p className='text-neutral-300 text-sm'>{copyrightText}</p>
+        <p className='text-neutral-300 text-sm'>All rights reserved. GymSewa {new Date().getFullYear()}</p>
       </div>
     </footer>
   );

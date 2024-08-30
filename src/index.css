@@ -69,3 +69,69 @@
     @apply flex -space-x-4;
   }
 }
+
+.fixedwhatapp {
+  position: fixed;
+  width: 200px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  top: 66%;
+  right: -156px;
+  z-index: 999;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+  background: #25d366;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s
+}
+
+.fixedwhatapp a {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: .6px;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s
+}
+
+.fixedwhatapp a span {
+  width: 45px;
+  height: 45px;
+  float: left;
+  background: #25d366;
+  font-size: 25px;
+  margin: 0 15px 0 0;
+  text-align: center;
+  line-height: 45px;
+  color: #fff
+}
+
+.fixedwhatapp a p {
+  margin: 0;
+  padding: 7px;
+  color: #fff;
+  padding-top: 14px
+}
+
+.fixedwhatapp a svg {
+  color: #fff;
+  -webkit-animation: flipInY 1.25s infinite;
+  -moz-animation: flipInY 1.25s infinite;
+  -ms-animation: flipInY 1.25s infinite;
+  animation: flipInY 1.25s infinite
+}
+
+.fixedwhatapp:hover {
+  right: 0
+}
