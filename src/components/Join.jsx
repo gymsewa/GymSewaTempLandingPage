@@ -5,7 +5,7 @@ import { join } from '../data';
 
 const Join = () => {
   // destructure join data
-  const { image, title, subtitle, btnText } = join;
+  const { image, title, subtitle, btnText, link } = join;
   return (
     <section className='bg-neutral-500 min-h-[537px]'>
       <div className='container mx-auto'>
@@ -33,7 +33,10 @@ const Join = () => {
             <p className='text-body-sm md:text-body-md text-white mb-4 lg:mb-6 max-w-[348px] md:max-w-[470px] lg:max-w-[492px]'>
               {subtitle}
             </p>
-            <button className='btn btn-secondary btn-lg'>{btnText}</button>
+            {/* Link to Google Form */}
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <button className='btn btn-secondary btn-lg'>{btnText}</button>
+            </a>
           </div>
         </div>
       </div>

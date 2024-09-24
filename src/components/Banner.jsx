@@ -5,7 +5,7 @@ import { banner } from '../data';
 
 const Banner = () => {
   // destructure banner data
-  const { titlePart1, titlePart2, subtitle, textBtn } = banner;
+  const { titlePart1, titlePart2, subtitle, textBtn, link } = banner;
   return (
     <section className='bg-neutral-500 h-[790px]'>
       <div className='container mx-auto h-full'>
@@ -26,13 +26,16 @@ const Banner = () => {
             >
               {subtitle}
             </p>
-            <button
-              className='btn btn-sm lg:btn-lg btn-secondary'
-              data-aos='fade-down'
-              data-aos-delay='700'
-            >
-              {textBtn}
-            </button>
+            {/* Wrap button in <a> tag with link to Google Form */}
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <button
+                className='btn btn-sm lg:btn-lg btn-secondary'
+                data-aos='fade-down'
+                data-aos-delay='700'
+              >
+                {textBtn}
+              </button>
+            </a>
           </div>
           {/* image */}
           <div
