@@ -40,6 +40,7 @@ export const banner = {
   subtitle:
     'We provide serious fitness but within a fun and friendly, safe space.',
   textBtn: 'Join Now',
+  link: 'https://forms.gle/38dahvravRL7xhAV6',
   img: '',
 };
 
@@ -208,6 +209,7 @@ export const join = {
   subtitle:
     'We’ll keep you updated on the things you need to know about GymSewa. Nothing more, nothing less.',
   btnText: 'Join now',
+  link: 'https://forms.gle/38dahvravRL7xhAV6'
 };
 
 export const footer = {

@@ -7,6 +7,7 @@ const PlanList = ({ plans }) => {
   
   const [index, setIndex] = useState(0);
 
+  const googleFormLink = 'https://forms.gle/38dahvravRL7xhAV6';
   return (
     <div className='flex flex-col lg:flex-row items-center justify-center max-w-[1280px] mx-auto gap-y-4'>
       {plans.map((plan, currentIndex) => {
@@ -69,15 +70,17 @@ const PlanList = ({ plans }) => {
                     })}
                   </ul>
                   {/* btn */}
-                  <button
-                    className={`${
-                      currentIndex === index
-                        ? 'bg-white text-neutral-500'
-                        : 'border border-neutral-500'
-                    } btn btn-lg rounded-[1px] lg:mx-auto`}
-                  >
-                    Join now
-                  </button>
+                  <a href={googleFormLink} target="_blank" rel="noopener noreferrer">
+                    <button
+                      className={`${
+                        currentIndex === index
+                          ? 'bg-white text-neutral-500'
+                          : 'border border-neutral-500'
+                      } btn btn-lg rounded-[1px] lg:mx-auto`}
+                    >
+                      Join now
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
