@@ -21,9 +21,11 @@ const Footer = () => {
           <a href="/tnc.html" target="_blank" rel="noopener noreferrer">
             Terms and Conditions
           </a>{" "}
-          |
           <a href="/privacy.html" target="_blank" rel="noopener noreferrer">
-            Privacy Policy
+          | Privacy Policy
+          </a>{" "}
+          <a href="/refund.html" target="_blank" rel="noopener noreferrer">
+          | Refunds/Cancellations Policy
           </a>{" "}
           | All rights reserved. GymSewa {new Date().getFullYear()}
         </p>

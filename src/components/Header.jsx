@@ -29,15 +29,15 @@ const Header = () => {
         isActive ? 'bg-neutral-500 py-[16px]' : 'bg-transparent py-[20px]'
       } fixed max-w-[1440px] left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] z-30 transition-all duration-300`}
     >
-      {/* logo */}
+      {/* logo or website name */}
       <a href='/'>
-        {/* <img className='h-[30px]' src={logo} alt='' /> */}
+        <h1 className="text-white text-2xl font-bold">GYMSEWA</h1>
       </a>
 
       {/* nav - initially hidden - show in desktop mode */}
       <Nav />
 
-      {/* buttons - initally hidden - show in desktop mode */}
+      {/* buttons - initially hidden - show in desktop mode */}
       {/* <div className='hidden lg:flex space-x-4'>
         <button className='btn btn-sm text-white hover:text-primary-200 transition'>
           {btnLoginText}
