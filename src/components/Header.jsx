@@ -19,10 +19,11 @@ const Header = () => {
     window.addEventListener('scroll', () => {
       window.scrollY > 80 ? setIsActive(true) : setIsActive(false);
     });
-  });
+  }, []); // Add empty array to run only once on mount
 
   // destructure header data
   const { logo, btnLoginText, btnSignupText } = header;
+  
   return (
     <header
       className={`${
@@ -32,6 +33,8 @@ const Header = () => {
       {/* logo or website name */}
       <a href='/'>
         <h1 className="text-white text-2xl font-bold">GYMSEWA</h1>
+        {/* Tagline below the title */}
+        <p className="text-white text-sm mt-1">By BOOK BUSH</p> {/* Change text as needed */}
       </a>
 
       {/* nav - initially hidden - show in desktop mode */}

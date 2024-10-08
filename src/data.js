@@ -26,12 +26,12 @@ export const header = {
 };
 
 export const nav = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/' },
-  { name: 'Workouts', href: '/' },
-  { name: 'Pricing', href: '/' },
-  { name: 'Community', href: '/' },
-  { name: 'FAQ', href: '/' },
+  { name: 'Home', href: '#banner' },
+  { name: 'About', href: '#about' },
+  { name: 'Workouts', href: '#join' },
+  { name: 'Pricing', href: '#pricing' },
+  { name: 'Community', href: '#community' },
+  { name: 'FAQ', href: '#faq' },
 ];
 
 export const banner = {
@@ -173,32 +173,32 @@ export const faq = {
     {
       question: 'How can I book a workout class?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'You can book a workout class through our website or mobile app by selecting your desired class and time, then following the prompts to complete your reservation.',
     },
     {
       question: 'Can I pay by cash for my membership?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Yes, we accept cash payments for memberships at our gym. Please visit the front desk for assistance.',
     },
     {
       question: 'What age do I need to be to join?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'You need to be at least 16 years old to join our gym. Minors must have parental consent.',
     },
     {
       question: 'Are there any lockers?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Yes, we provide lockers for all members to securely store their belongings while they work out.',
     },
     {
       question: 'How do I cancel my membership?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'To cancel your membership, please contact our support team or visit the front desk. Make sure to review our cancellation policy beforehand.',
     },
     {
       question: 'Is there water available at the gym?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Yes, we provide water stations throughout the gym for members to stay hydrated during their workouts.',
     },
   ],
 };
