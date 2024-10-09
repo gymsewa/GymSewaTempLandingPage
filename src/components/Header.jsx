@@ -32,7 +32,8 @@ const Header = () => {
     >
       {/* logo or website name */}
       <a href='/'>
-        <h1 className="text-white text-2xl font-bold">GYMSEWA</h1>
+      <p className="text-white text-sm mt-1">Bytewave Innovations Lab LLP Presents</p>
+        <h1 className="text-white text-4xl font-bold">GYMSEWA</h1>
         {/* Tagline below the title */}
         <p className="text-white text-sm mt-1">By BOOK BUSH</p> {/* Change text as needed */}
       </a>
