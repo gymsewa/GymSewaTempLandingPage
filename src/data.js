@@ -48,7 +48,7 @@ export const about = {
   icon: UsersIcn,
   title: 'Our misson',
   subtitle1:
-    'Whether you have a gym or are planning to start one, your business can easily be overshadowed or beaten by established players and smart competitors already in the market. You need a perfect strategy to outsmart them and run your business effectively and professionally. To achieve this, leveraging the latest tools for growth is essential, including data analysis, digital marketing, SEO, SMO, Email, SMS, and WhatsApp marketing.',
+    'Whether you have a gym or are planning to start one, your business can easily be overshadowed or beaten by established players and smart competitors already in the market. You need a perfect strategy to outsmart them and run your business effectively and professionally. To achieve this, leveraging the latest tools for growth is essential, including data analysis, digital marketing, SEO, SMO, Email, and WhatsApp marketing.',
   subtitle2:
     'Successful business management is the key to growth, and this is where Gymsewa - Gym Management Software comes in as a must-have tool for gym growth. Gymsewa has several advantages, such as helping with automated communication and event notification tools, ensuring that your gyms operations run smoothly and your members stay engaged.',
   link: 'Join Now',
