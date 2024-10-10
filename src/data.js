@@ -100,7 +100,7 @@ export const pricing = {
         { name: 'Add Multiple Users' },
         { name: 'Add Unlimited Users' },
         { name: 'Permission Wise Access' },
-        { name: '20 SMS Free' },
+        { name: '200 Pre-approved WhatsApp marketing_template messages Free' },
         { name: 'Free Support' },
         { name: 'Validity 1 Month' }
       ],
@@ -113,7 +113,7 @@ export const pricing = {
         { name: 'Add Multiple Users' },
         { name: 'Add Unlimited Users' },
         { name: 'Permission Wise Access' },
-        { name: '50 SMS Free' },
+        { name: '1500 Pre-approved WhatsApp marketing_template messages Free' },
         { name: 'Free Support' },
         { name: 'Validity 3 Months' }
       ],
@@ -126,7 +126,7 @@ export const pricing = {
         { name: 'Add Multiple Users' },
         { name: 'Add Unlimited Users' },
         { name: 'Permission Wise Access' },
-        { name: '100 SMS Free' },
+        { name: '2500 Pre-approved WhatsApp marketing_template messages Free' },
         { name: 'Free Support' },
         { name: 'Validity 1 Year' }
       ],
