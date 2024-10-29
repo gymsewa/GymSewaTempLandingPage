@@ -27,7 +27,7 @@ export const header = {
 
 export const nav = [
   { name: 'Home', href: '#banner' },
-  { name: 'About', href: '#about' },
+  { name: 'About Us', href: '#about' },
   { name: 'Workouts', href: '#join' },
   { name: 'Pricing', href: '#pricing' },
   { name: 'Community', href: '#community' },
@@ -207,7 +207,7 @@ export const join = {
   image: JoinImg,
   title: 'Wanna join & have fun?',
   subtitle:
-    'We’ll keep you updated on the things you need to know about GymSewa. Nothing more, nothing less.',
+    `We'll keep you updated on the things you need to know about GymSewa. Nothing more, nothing less.`,
   btnText: 'Join now',
   link: 'https://forms.gle/38dahvravRL7xhAV6'
 };
